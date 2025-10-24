@@ -1,4 +1,5 @@
-param webAppName string = uniqueString(resourceGroup().id) // Generate unique String for web app name
+// param webAppName string = uniqueString(resourceGroup().id) // Generate unique String for web app name
+param webAppName string = devops-webapp-eastus-452618485
 param sku string = 'S1' // The SKU of App Service Plan
 param location string = resourceGroup().location
 
